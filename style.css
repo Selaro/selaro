@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(230, 230, 230);
+    padding: 1em;
+}
+
+nav{
+    background-color:rgb(197, 197, 197);
+    border-radius: 8px;
+}
+
+.navlist{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 1em;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#selfie{
+    display: flex;
+    flex-direction: column;
+}
+
