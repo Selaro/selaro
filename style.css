@@ -14,7 +14,6 @@ nav{
 .navlist{
     display: flex;
     flex-direction:row;
-    justify-content: center;
     justify-content: space-around;
     padding: 1em;
     margin: auto;
@@ -66,8 +65,20 @@ footer{
     padding: .5rem;
     text-align: center;
     height: 1%
-
-@media screen and(max-width: 768px){
-    
-    
 }
+@media screen and(max-width: 768px){
+    body{
+        height: 100%;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        height: 20vh
+    }
+    footer{
+        height: 1%;
+    }
+}
+    
+    
