@@ -72,11 +72,18 @@ footer{
         background-color: aquamarine;
         display: flex;
         flex-direction: column;
+        padding: 1em;
     }
     nav{
         height: 20vh
     }
     footer{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: .5rem;
+        text-align: center;
         height: 1%;
     }
 }
